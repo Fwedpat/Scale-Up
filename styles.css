@@ -964,19 +964,6 @@ h1 {
   background: var(--ink);
 }
 
-.about-visual::before {
-  position: absolute;
-  z-index: 3;
-  top: 0;
-  left: 0;
-  width: 4rem;
-  height: 4rem;
-  border-top: 1px solid var(--blue);
-  border-left: 1px solid var(--blue);
-  border-radius: var(--radius-frame) 0 0 0;
-  content: "";
-}
-
 .about-portrait-frame {
   overflow: hidden;
   border-radius: var(--radius-frame);
@@ -1001,7 +988,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding-top: 0.8rem;
-  border-top: 1px solid var(--line-dark);
   color: var(--muted-light);
   font-size: 0.74rem;
   font-weight: 600;
