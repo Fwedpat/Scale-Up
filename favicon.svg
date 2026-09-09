@@ -1,6 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
   <title id="title">Scale-Up Navigator</title>
-  <rect width="200" height="200" fill="#091321" />
+  <rect
+    x="4"
+    y="4"
+    width="192"
+    height="192"
+    rx="44"
+    fill="#091321"
+    stroke="#D9F36A"
+    stroke-width="8"
+  />
   <path
     d="M14 119 186 26 107 112 14 119Z"
     fill="none"
