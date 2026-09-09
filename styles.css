@@ -973,16 +973,25 @@ h1 {
   height: 4rem;
   border-top: 1px solid var(--blue);
   border-left: 1px solid var(--blue);
+  border-radius: var(--radius-frame) 0 0 0;
   content: "";
+}
+
+.about-portrait-frame {
+  overflow: hidden;
+  border-radius: var(--radius-frame);
 }
 
 .about-visual .about-portrait {
   position: relative;
   z-index: 1;
+  display: block;
   width: 100%;
   aspect-ratio: 0.86;
   object-fit: cover;
   object-position: center 18%;
+  border-radius: var(--radius-frame);
+  clip-path: inset(0 round var(--radius-frame));
   filter: saturate(0.9);
 }
 
